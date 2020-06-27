@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <PreferenceCategory android:title="Usuario">
+
+        <EditTextPreference
+            android:title="Usuario"
+            android:summary="Usuario para usar en la aplicación"
+            android:dialogTitle="Introduce el usuario para la app"
+            android:key="usuario"
+
+            />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

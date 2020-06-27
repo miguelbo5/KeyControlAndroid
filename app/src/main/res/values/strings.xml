@@ -1,0 +1,40 @@
+<resources>
+
+
+    <string name="app_name">KeyControl</string>
+    <string name="boton_aplicarFiltros">Aplicar filtros</string>
+    <string name="nombre_teclado">Logitech G450</string>
+    <string name="precio_teclado">80€</string>
+    <string name="fecha_llegada">Fecha llegada: 08/08/18</string>
+    
+    <string name="seguir_comprando">Seguir comprando</string>
+    <string name="realizar_pedido">Realizar pedido</string>
+    <string name="carrito">Carrito</string>
+    
+    <string name="descripcion">Descripción</string>
+    <string name="descripcion_contenido">
+        G513 es un teclado para gaming de alto rendimiento con interruptores mecánicos Romer-G Táctil.
+        \nEl reposamanos extraíble de espuma viscoelástica y la construcción de aleación de aluminio premium complementan las características de G513 para hacerlo el mejor de su clase.
+    </string>
+    <string name="login">Log In</string>
+    <string name="registro">Registro</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="introd_nombre">Introduce el nombre de usuario</string>
+    <string name="introd_email">Introduce tu email</string>
+    <string name="introd_contr">Introduce tu contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="enlace_registro">¿No tienes una cuenta creada?</string>
+
+    <string name="mis_pedidos">Mis pedidos</string>
+    <string name="volver_a_cuenta">Volver a mi cuenta</string>
+
+    <string name="mas_vendidos">Más vendidos</string>
+    <string name="ofertas_dia">Ofertas del dia</string>
+    <string name="mejor_valorados">Mejor valorados</string>
+
+    <string name="favoritos">Mi lista de favoritos</string>
+    <string name="pedidos">Mi lista de pedidos</string>
+
+    <string name="mis_favoritos">Mis favoritos</string>
+
+</resources>

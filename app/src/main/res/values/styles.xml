@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="Botones">
+
+        <item name="android:layout_width">60dp</item>
+        <item name="android:background">@color/colorSecundary</item>
+
+    </style>
+
+    <style name="Textos">
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF000000</item>
+
+    </style>
+
+    <style name="texto_enlace">
+
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+
+    </style>
+
+</resources>

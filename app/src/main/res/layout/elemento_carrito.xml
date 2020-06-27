@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/img_producto_carrito"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickProducto"
+            app:srcCompat="@drawable/teclado3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+
+            android:background="@color/colorSecundary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_nombre_carrito"
+                style="@style/Textos"
+                android:layout_width="186dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/nombre_teclado" />
+
+            <TextView
+                android:id="@+id/tv_precio_carrito"
+                style="@style/Textos"
+                android:layout_width="94dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/precio_teclado" />
+
+            <ImageButton
+                android:id="@+id/imageButtonQuitar"
+                style="@style/Botones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baseline_close_black_18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

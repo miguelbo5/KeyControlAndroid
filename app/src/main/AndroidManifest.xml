@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keycontrol">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_keycontrol"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_keycontrol_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegistroActivity"></activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".LogInActivity" />
+        <activity android:name=".PagoConTarjetaActivity" />
+        <activity android:name=".ElegirMetodoPagoActivity" />
+        <activity android:name=".Carrito.CarritoActivity" />
+        <activity android:name=".ListaFavoritosActivity" />
+        <activity android:name=".ProductoActivity" />
+        <activity android:name=".MejorValoradosActivity" />
+        <activity android:name=".OfertasDelDiaActivity" />
+        <activity android:name=".MasVendidosActivity" />
+        <activity android:name=".Pedidos.PedidosActivity" />
+        <activity android:name=".CuentaActivity" />
+        <activity android:name=".Tienda.TiendaActivity" />
+        <activity android:name=".MainActivity" android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

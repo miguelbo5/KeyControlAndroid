@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductoActivity"
+    android:layout_marginTop="45dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:id="@+id/layout_container_editar">
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imagen_producto"
+            android:layout_width="414dp"
+            android:layout_height="217dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/teclado4"
+            tools:layout_editor_absoluteY="81dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/nombre_producto"
+                    style="@style/Textos"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/nombre_teclado"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/precio_producto"
+                    style="@style/Textos"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/precio_teclado"
+                    android:textAlignment="center"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_weight="0.4"
+                    android:layout_marginRight="5dp"
+                    style="@style/Botones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/baseline_shopping_cart_black_18dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="72dp"
+                    android:layout_weight="0.4"
+                    android:layout_marginLeft="5dp"
+                    style="@style/Botones"
+                    android:layout_height="wrap_content"
+                    android:foregroundGravity="right"
+                    app:srcCompat="@drawable/baseline_favorite_black_18dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/boton_borrar"
+                    android:layout_weight="0.5"
+                    style="@style/Botones"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Borrar" />
+
+                <Button
+                    android:id="@+id/boton_editar"
+                    android:layout_weight="0.5"
+                    style="@style/Botones"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Editar" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/Textos"
+            android:layout_width="363dp"
+            android:layout_height="36dp"
+
+            android:layout_marginTop="10dp"
+            android:background="@color/colorSecundary"
+            android:gravity="center"
+            android:text="@string/descripcion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            style="@style/Textos"
+            android:layout_width="346dp"
+            android:layout_height="341dp"
+            android:text="@string/descripcion_contenido" />
+
+    </LinearLayout>

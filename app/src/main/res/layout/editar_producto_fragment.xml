@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_id_teclado_editar"
+
+        style="@style/Textos"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="El id es: " />
+
+    <EditText
+        android:id="@+id/et_nombre_teclado_editar"
+        style="@style/Textos"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="Dime el nombre del teclado"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_precio_teclado_editar"
+        style="@style/Textos"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Dime el precio del teclado"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_color_teclado_editar"
+        style="@style/Textos"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Dime el color del teclado"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_descripcion_teclado_editar"
+        style="@style/Textos"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Dime la descripción del teclado"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/boton_editar"
+        style="@style/Botones"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Modificar producto"
+        android:textSize="17sp" />
+
+</LinearLayout>
